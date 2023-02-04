@@ -31,11 +31,14 @@ git clone https://github.com/
 ```javascript
 console.log(helloWorld);
 ```
+```py
+print("helloWorld")
+```
 -----------------------------------
 ## unordered
 - маркированый
-* маркирований
-    * вложеность 
+* маркированый
+    * вложеность
 
 ## oldered list
 1. list
@@ -65,10 +68,10 @@ console.log(helloWorld);
 ---
 ## LINK
 [GitHub](https://github.com/)
-[GitHub](https://github.com/"подсказка")
+[GitHub](https://github.com/ "подсказка")
 
 ## IMAGES
 ![фото](photo/markdown.png)
-![еще_фото](photo/markdown.png "подсказка")
+![еще_фото](photo/rabbit.jfif "rabbit")
 
 <!-- comment -->

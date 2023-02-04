@@ -14,23 +14,20 @@ GIT следит за файлами по именам, при перемено�
 `git add .` - all files\
 Добавить файл под версионный контроль
 * `git commit -m "massage"` - commit changes to the repository\
-`| -m |` is **flag** to indicate *message*
-    >use **flag** | `-am` | to skip stage `git add .` and massage *(works after first commit)*
+    >**flag** `| -m |` -  to indicate *message*\
+    **flag** | `-am` | - to skip stage `git add .` and massage *(works after first commit)*
 * `git log` - журнал изменений (коммитов)
-    > use **flag** | `--graph` | - show graphical information of branches
+    >**flag** | `--oneline` | - show abridged version\
+    >**flag** | `--graph` | - show graphical information of branches
 * `git checkout 35dfhpklfh56gf8j7d54h` - перейти к определенному изменению\
-можно вести первые 4 срочки хеша коммита `| 35df |` - commit hash
+можно вести первые 4 срочки хеша коммита `| 35df |` - _commit hash_
 * `git checkout main` - перейти на актуальное состояние изменений / ветку
 * `git diff` - show difference between current and last commit files
-### GitHub / Working with a remote repository (move to lesson_3)
-- `git push` - added files the remote repository
-- `git pull` - get files the remote repository
-
-### additional commands:
+### Additional commands:
 - `git --version` - show version the GIT
 - `clear` - clear the consol
 - `git update-git-for-windows` - update GIT version\
-can use - `git update`
+    >can use - `git update`
 - `git help` - help for all commands
 >! exit the __VIM__ and save file - `esc` + `:wq`\
 Esc + :x + Enter (сохранить и выйти)\
@@ -44,11 +41,13 @@ Esc + Shift ZQ (выйти без сохранения)
 3. **log** - журнал
 4. **insertion** - вставка, введение, включение
 5. **indicate** - указать
-5. **difference** - разница, различие
-5. **to allow** - позволять, допускать, разрешать,
+6. **difference** - разница, различие
+7. **to allow** - позволять, допускать, разрешать,
+8. **to abridge** - сокращать, ограничивать
 
 > Status:\
     1. **untracked** - неотслеживаемый\
-    2. **modified** - модифицированый
+    2. **modified** - модифицированый\
+    3. **stage** - стадия
 -----------------------------------
 ![status](photo/lifecycle.png)
