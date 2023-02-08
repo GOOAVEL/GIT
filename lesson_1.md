@@ -18,10 +18,14 @@ GIT следит за файлами по именам, при перемено�
     **flag** | `-am` | - to skip stage `git add .` and massage *(works after first commit)*
 * `git log` - журнал изменений (коммитов)
     >**flag** | `--oneline` | - show abridged version\
-    >**flag** | `--graph` | - show graphical information of branches
+    >**flag** | `--graph` | - show graphical information of commits\
+    >**flag** | `--all` | - show all information of commits (all branches)
 * `git checkout 35dfhpklfh56gf8j7d54h` - перейти к определенному изменению\
 можно вести первые 4 срочки хеша коммита `| 35df |` - _commit hash_
 * `git checkout main` - перейти на актуальное состояние изменений / ветку
+    >`git checkout main^` - move to second-to-last commit\
+    >`git checkout main^^` - move to third-to-last commit\  
+    `|^^|` & `|~~|` - count (n)-to-last
 * `git diff` - show difference between current and last commit files
 ### Additional commands:
 - `git --version` - show version the GIT
@@ -44,6 +48,7 @@ Esc + Shift ZQ (выйти без сохранения)
 6. **difference** - разница, различие
 7. **to allow** - позволять, допускать, разрешать,
 8. **to abridge** - сокращать, ограничивать
+9. **second-to-last** - предпоследний
 
 > Status:\
     1. **untracked** - неотслеживаемый\

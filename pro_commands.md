@@ -1,7 +1,5 @@
 GIT_PRO
 =====================================
-Справочники:
-[(+_+)](https://jinv.ru/github/guide-git-i-github/) & [(\*_*)](https://www.atlassian.com/ru/git/tutorials)\
 `git reset` — лучше всего использовать для отмены локальных частных изменений.\
 `git revert` — лучший инструмент для отмены общих публичных изменений.
 ## Commands:

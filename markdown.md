@@ -44,7 +44,7 @@ print("helloWorld")
 1. list
 2. list
 
-## To-do list (beta)
+## To-do list
 - [x] Выйти на улицу
 - [x] Зайти в магазин
 - [ ] Купить продукты
@@ -72,6 +72,4 @@ print("helloWorld")
 
 ## IMAGES
 ![фото](photo/markdown.png)
-![еще_фото](photo/rabbit.jfif "rabbit")
-
-<!-- comment -->
+![еще_фото](photo/rabbit.jfif "rabbit") <!-- подсказка -->
