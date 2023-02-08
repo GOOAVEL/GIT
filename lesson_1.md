@@ -29,7 +29,7 @@ GIT следит за файлами по именам, при перемено�
 - `git update-git-for-windows` - update GIT version\
     >can use - `git update`
 - `git help` - help for all commands
->! exit the __VIM__ and save file - `esc` + `:wq`\
+>Exit the __VIM__ and save file - `esc` + `:wq`\
 Esc + :x + Enter (сохранить и выйти)\
 Esc + :qa + Enter (закрыть все открытые файлы)\
 Esc + Shift ZZ (сохранить и выйти)\

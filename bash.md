@@ -5,10 +5,10 @@
 ## Commands:
 * `pwd` - show the way current file (_present working directory_)
 * `ls` - show files in current folder (_list_)
-* `mkdir` **new_folder** - create a new folder
 * `touch` - create a new file
     > example: `touch to-do.txt`
-* `cd `**new_folder** - move to the folder (change directory)
-* `echo "`**text**`" > file_name` - write something inside the file
+* `mkdir new_folder` - create a new folder
+* `cd new_folder` - move to the folder (change directory)
+* `echo "text"` > file_name` - write something inside the file
 * `rm name_file` - delete the file
 * `mv name_file other_file` - rename the file
