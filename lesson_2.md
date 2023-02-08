@@ -14,8 +14,7 @@ GIT#2 - система контроля версий.
 * `git checkout main` - перейти на актуальное состояние изменений / ветку
 * `git checkout -b branch_name` - create a new branch and move to branch
 * `git merge branch_name` - to merge changes new branch to parent branch
-    > when use `git merge`, a new commit created\
-    > сливать находясь в родительской ветки
+    > when use `git merge`, a new commit created
 -------------------------------------------------
 ## Dictionary:
 1. **branch** - отделение, филиал, ветвь
