@@ -67,9 +67,9 @@ print("helloWorld")
 * по правой стороне (|----:|)
 ---
 ## LINK
-[GitHub](https://github.com/)
-[GitHub](https://github.com/ "подсказка")
+[example#1](#)
+[example#2](# "подсказка")
 
 ## IMAGES
 ![фото](photo/markdown.png)
-![еще_фото](photo/rabbit.jfif "rabbit") <!-- подсказка -->
+![rabbit](photo/rabbit.jfif "Alisa, come me, I`m here!") <!-- подсказка -->

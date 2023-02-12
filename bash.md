@@ -5,6 +5,7 @@
 ## Commands:
 * `pwd` - show the way current file (_present working directory_)
 * `ls` - show files in current folder (_list_)
+    >**flag** | `-a` | - show all files
 * `touch` - create a new file
     > example: `touch to-do.txt`
 * `mkdir new_folder` - create a new folder

@@ -15,7 +15,7 @@ GIT#3 - система контроля версий.
 -------------------------------------------------
 ### Algorithm of working with foreign _(чужой)_ repository 
 1. touch on **fork** 
-2. clone the **forked** repository
+2. clone the our **forked** repository
 3. create a new branch for working (зависит от проекта)
 4. push the our **forked** repository
 5. run **pull request** and wait... :D

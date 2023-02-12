@@ -9,9 +9,10 @@ GIT#2 - система контроля версий.
     >**flag** | `-a` | show all branches (remote and local)
 * `git branch branch_name` - create a new branch
 * `git branch -m branch_new_name` - rename the branch (находяcь на ветке)
+    > on another branch - `git branch -m master main` (example)
 * `git branch -d branch_name` - delete a branch
     >**flag** `| -D |` - forced deletion (without checking for new files)
-* `git checkout main` - перейти на актуальное состояние изменений / ветку
+* `git checkout main` - перейти на актуальное состояние изменений (last commit) / ветку
 * `git checkout -b branch_name` - create a new branch and move to branch
 * `git merge branch_name` - to merge changes new branch to parent branch
     > when use `git merge`, a new commit created

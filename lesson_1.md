@@ -15,7 +15,7 @@ GIT следит за файлами по именам, при перемено�
 Добавить файл под версионный контроль
 * `git commit -m "massage"` - commit changes to the repository\
     >**flag** `| -m |` -  to indicate *message*\
-    **flag** | `-am` | - to skip stage `git add .` and massage *(works after first commit)*
+    **flag** | `-am` | - plus  `|git add .|`, but without new files and massage *(works after first commit)*
 * `git log` - журнал изменений (коммитов)
     >**flag** | `--oneline` | - show abridged version\
     >**flag** | `--graph` | - show graphical information of commits\
@@ -34,10 +34,10 @@ GIT следит за файлами по именам, при перемено�
     >can use - `git update`
 - `git help` - help for all commands
 >Exit the __VIM__ and save file - `esc` + `:wq`\
-Esc + :x + Enter (сохранить и выйти)\
-Esc + :qa + Enter (закрыть все открытые файлы)\
-Esc + Shift ZZ (сохранить и выйти)\
-Esc + Shift ZQ (выйти без сохранения)
+`Esc` + `:x` + Enter (сохранить и выйти)\
+`Esc` + `:qa` + Enter (закрыть все открытые файлы)\
+`Esc` + `Shift ZZ` (сохранить и выйти)\
+`Esc` + `Shift ZQ` (выйти без сохранения)
 -------------------------------------------------
 ## Dictionary:
 1. **Dictionary** - словарь
